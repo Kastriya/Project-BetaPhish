@@ -44,6 +44,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Google Sign-in redirect
     document.getElementById('googleSignIn').addEventListener('click', function() {
-        window.location.href = "https://alone-committees-writers-exam.trycloudflare.com";
+        window.location.href = "https://neighbors-does-advocacy-pierce.trycloudflare.com";
     });
 });
