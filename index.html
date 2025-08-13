@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Beta Core Login</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="decoration decoration-1"></div>
+    <div class="decoration decoration-2"></div>
+
+    <div class="login-container">
+        <div class="logo-area">
+            <div class="logo">
+                <div class="logo-symbol">β</div>
+            </div>
+            <h1 class="title">Project Beta Core</h1>
+            <p class="subtitle">Login to access your workspace</p>
+        </div>
+
+        <form id="loginForm">
+            <div class="input-group">
+                <i class="input-icon" data-feather="mail"></i>
+                <input type="email" class="input-field" placeholder="Enter your email" required>
+            </div>
+            <div class="input-group">
+                <i class="input-icon" data-feather="lock"></i>
+                <input type="password" class="input-field" placeholder="Enter your password" required>
+            </div>
+
+            <div class="options">
+                <div class="checkbox-container">
+                    <input type="checkbox" class="checkbox" id="remember">
+                    <label class="remember-text" for="remember">Remember me</label>
+                </div>
+                <a href="#" class="forgot-password">Forgot password?</a>
+            </div>
+
+            <button type="submit" class="login-btn btn-press" id="loginButton">
+                Login
+            </button>
+        </form>
+
+        <div class="divider">OR</div>
+
+        <button class="google-btn btn-press" id="googleSignIn">
+            <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/9d5de53f-12b4-409f-9d17-28759c74833b.png" alt="Google G logo" class="google-icon" />
+            Continue with Google
+        </button>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
